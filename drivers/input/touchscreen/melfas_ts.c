@@ -68,7 +68,7 @@
 /* LGE_CHANGE_E : RECENT_APPS_KEY */
 
 #if SET_DOWNLOAD_BY_GPIO
-#include <mcs8000_download.h>
+#include "mcs8000_download.h"
 #endif // SET_DOWNLOAD_BY_GPIO
 static int irq_flag;
 static int power_flag;
